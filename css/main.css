@@ -4,7 +4,7 @@
 
 /* MY CSS */
 
-
+/*  
 .large-12 {
 	background-color:teal;
 	width:100px;
@@ -21,7 +21,14 @@
 	background-color:lightblue;
 	width:300px;
 	height:300px;
-}
+}  
+*/
+
+
+/* ===== HOME PAGE =======
+======================== */
+#work .row .row {padding-bottom:1.875rem }
+
 
 /* ===== TOKYO PAGE =======
 ======================== */
