@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Foundation | Welcome</title>
+<title>My Portfolio</title>
 <link rel="stylesheet" href="css/foundation.css" />
 <link rel="stylesheet" href="css/main.css" />
 <script src="js/vendor/modernizr.js"></script>
@@ -14,23 +14,17 @@
 <header> 
   <div class="contain-to-grid sticky">
     <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="name">
-          <h1><a class="logo show-for-small-only" href="#"><img src="http://placehold.it/50x50" /></a></h1>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
       <section class="top-bar-section">
       	<ul class="right">
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Home</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home">Home</a></li>
         </ul>
         <div class="logo-wrapper hide-for-small-only">
-          <div class="logo"> <img src="http://placehold.it/350x150"> </div>
+          <div class="logo"> <img id="home" src="http://placehold.it/200x200"> </div>
         </div>
         <ul class="left">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#home">Projects</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </section>
     </nav>
@@ -40,15 +34,15 @@
 
 <div class="row">
   <div class="large-12 columns">
-    <h1>My Projects</h1>
+    <h1 id="home">My Projects</h1>
   </div>
 </div>
 <section id="work">
   <div class="row">
     <div class="columns large-8 medium-9">
       <div class="row">
-        <div id="wrapper" class="columns large-4 medium-4 right"> <img src="http://placehold.it/400x400" class="hover">
-          <p class="text">Annual Report</p>
+        <div id="wrapper" class="columns large-4 medium-4 right"> <a href="annual-report.html"><img src="http://placehold.it/400x400" class="hover"></a>
+          <p class="text">CLICK THIS ONE IS LINK</p>
         </div>
       </div>
       <div class="row">
@@ -104,7 +98,7 @@
 <section>
   <header class="row">
     <div class="column small-12">
-      <h2>A Little Bit About Me</h2>
+      <h2 id="about">A Little Bit About Me</h2>
     </div>
   </header>
   <div class="row">
@@ -128,7 +122,7 @@
 <footer class="footer">
   <div class="row">
     <div class="small-12 medium-6 medium-push-6 columns">
-      <form class="footer-form">
+      <form id="contact" class="footer-form">
         <div class="row">
           <div class="medium-9 medium-push-3 columns">
             <label for="Name"></label>
