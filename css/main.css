@@ -27,7 +27,23 @@
 }  
 */
 
-/* ======= I FOOTER ======
+/* ======= HOME PAGE ========
+========================== */
+.test-padding{
+padding:0 1em;	
+}
+.negative-margin {
+	margin-top:-43px;
+}
+#promo-margin {
+	margin-top:12px;
+}
+#about-test-padding{
+	margin-left:15px;
+}
+
+
+/* ========= FOOTER ======
 ======================= */
 @charset "UTF-8";
 .hero {
@@ -106,6 +122,23 @@
 	content: "";
 	padding: 0 0.4rem 0 0.8rem;
 }
+
+
+/*==== ANNUAL REPORT PAGE ====
+============================ */
+.margin-bottom {
+	margin-bottom:15px;
+}
+
+#negative-left-margin {
+	margin-left:-282px;
+}
+
+
+
+
+
+
 
 @media only screen and (min-width: 40.063em) {
 .footer {

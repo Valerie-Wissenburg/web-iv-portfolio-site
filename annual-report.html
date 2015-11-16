@@ -9,82 +9,108 @@
 </head>
 <body>
 
-<header> 
-  <div class="contain-to-grid sticky">
-    <nav class="top-bar" data-topbar>
-      <section class="top-bar-section">
-      	<ul class="right">
-          <li><a href="index.html#contact">Contact</a></li>
-          <li><a href="index.html">Home</a></li>
-        </ul>
-        <div class="logo-wrapper hide-for-small-only">
-          <div class="logo"> <img src="http://placehold.it/350x150"> </div>
-        </div>
-        <ul class="left">
-          <li><a href="index.html">Portfolio</a></li>
-          <li><a href="index.html#about">About</a></li>
-        </ul>
-      </section>
-    </nav>
-  </div>
+<header>
+<div class="contain-to-grid sticky">
+<nav class="top-bar" data-topbar>
+<ul class="title-area">
+  <li class="name">
+    <h1><a class="logo show-for-small-only" href="#home-screen"><img src="http://placehold.it/80x80"/></a></h1>
+  </li>
+  <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+</ul>
+<ul class="right">
+  <li><a href="#home-screen">Projects</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
 </header>
 
 <div class="row">
 	<div class="column small-12">
-    	<img src="http://placehold.it/1080x500">
+    	<img src="http://placehold.it/1200x500">
     </div>
 </div>
 
 <div class="row">
-	<div class="columns large-3">
+	<div class="columns large-4 medium-4">
     	<header>
         	<h3>Annual Report</h3>
         	<h5>Chipotle Mexican Grill</h5>
         	<h5>2015</h5>
         </header>
     </div>
-    <div class="columns large-9">
+    <div class="columns large-8 medium-8">
     	<p>This client was looking for an exciting annual report to tell shareholders how they were doing this past year while maintaining their branding standards. These shareholder enthusiasts are looking for something that’s easy to understand and energetic. </p>
     </div>
 </div>
 
   <div class="row">
-    <div class="columns large-4 medium-3"> <img src="http://placehold.it/400x700">
+    <div class="columns large-4 medium-3 test-padding"> <img src="http://placehold.it/400x730">
     </div>
     <div class="columns large-8 medium-9">
       <div class="row">
-        <div class="columns large-4 medium-4 left"> <img src="http://placehold.it/800x600">
+        <div class="columns large-8 medium-8 left margin-bottom"> <img src="http://placehold.it/800x500">
         </div>
-      </div>
-      <div class="row">
+        <div class="row">
         <div class="columns large-8 medium-8 right">
-        <div class="columns large-8 medium-8"> <img src="http://placehold.it/500x500">
+        <div id="negative-left-margin" class="columns large-8 medium-8 test-padding"> <img src="http://placehold.it/600x600">
         </div>
           <div class="row">
            <div class="columns large-4 medium-4">
           <div class="row">
-            <div class="columns large-12 medium-12"> <img src="http://placehold.it/400x400">
+            <div class="columns large-12 medium-12 margin-bottom"> <img src="http://placehold.it/400x350">
             </div>
           </div>
           <div class="row">
-            <div class="columns large-12 medium-12"> <img src="http://placehold.it/400x400">
+            <div class="columns large-12 medium-12"> <img src="http://placehold.it/400x350">
             </div>
           </div>
         </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </div>
 
 <footer class="footer">
   <div class="row">
+    <div class="small-12 medium-6 medium-push-6 columns">
+      <form id="contact" class="footer-form">
+        <div class="row">
+          <div class="medium-9 medium-push-3 columns">
+            <label>
+            <label for="email" class="contact">Contact Me</label>
+            <input type="text" name="Name" placeholder="Name" />
+            </label>
+          </div>
+        <div class="row">
+          <div class="medium-9 medium-push-3 columns">
+            <label for="Name"></label>
+            <input type="email" id="email" placeholder="Email Address" />
+          </div>
+        </div>
+          
+        </div>
+        <div class="row">
+          <div class="medium-9 medium-push-3 columns">
+            <label>
+              <textarea rows="5" id="message" placeholder="Message"></textarea>
+            </label>
+          </div>
+          <div class="row">
+            <div class="medium-9 medium-push-3 columns"> <a href="#" class="small round button">Send</a> </div>
+          </div>
+        </div>
+      </form>
+    </div>
     <div class="small-12 medium-6 medium-pull-6 columns">
       <ul class="inline-list social">
         <a href="#"><i class="fi-social-facebook"></i></a> 
         <a href="#"><i class="fi-social-twitter"></i></a> 
         <a href="#"><i class="fi-social-linkedin"></i></a>
-        <a href="#"><i class="fi-social-github"></i></a>
       </ul>
       <p class="copywrite">Copyright © 2015 | Valerie Wissenburg</p>
     </div>
