@@ -3,55 +3,24 @@
 /* CSS Document */
 
 
-/* CUSTOM CSS */
+/* TABLE OF CONTENTS FOR CUSTOM CSS 
+===================================
+1.0 FOOTER
+2.0 HOME PAGE
+3.0 ANNUAL REPORT PAGE
+4.0 MEDIA QUERY
+5.0 
+6.0
+7.0
 
 
 
-/*  
-.large-12 {
-	background-color:teal;
-	width:100px;
-	height:100px;
-}
-
-.large-4 {
-	background-color:green;
-	width:100px;
-	height:100px;
-}
-
-.large-8 {
-	background-color:lightblue;
-	width:300px;
-	height:300px;
-}  
-*/
-
-/* ======= HOME PAGE ========
-========================== */
-.test-padding{
-padding:0 1em;	
-}
-.negative-margin {
-	margin-top:-43px;
-}
-#promo-margin {
-	margin-top:12px;
-}
-#about-test-padding{
-	margin-left:15px;
-}
+=================================*/
 
 
 /* ========= FOOTER ======
 ======================= */
-@charset "UTF-8";
-.hero {
-	background: url("http://images7.alphacoders.com/330/330811.jpg") no-repeat center center;
-	background-size: cover;
-	height: 50vh;
-	overflow: hidden;
-}
+
 .row {
 	max-width: 1200px;
 }
@@ -72,6 +41,7 @@ padding:0 1em;
 	text-align: center;
 	line-height: 2rem;
 	margin: 0 3px 0 0;
+	list-style:none;
 }
 .footer .copywrite {
 	color: #8f9296;
@@ -97,11 +67,11 @@ padding:0 1em;
 	font-weight: bold;
 }
 .footer .footer-form .submit {
-	border-radius: 3px;
+	border-radius: 2px;
 	background-color: #33383b;
 	color: #ffffff;
 	border: 0;
-	padding: 1rem 3.5rem;
+	padding: 1rem 5rem;
 	font-weight: bold;
 	float: right;
 	margin: 0 1rem 2rem 0;
@@ -124,6 +94,23 @@ padding:0 1em;
 }
 
 
+/* ======= HOME PAGE ========
+========================== */
+.img-spacing{
+padding:0 1em;	
+}
+.negative-margin {
+	margin-top:-43px;
+}
+#promo-margin {
+	margin-top:12px;
+}
+#about-test-padding{
+	margin-left:15px;
+}
+
+
+
 /*==== ANNUAL REPORT PAGE ====
 ============================ */
 .margin-bottom {
@@ -131,12 +118,17 @@ padding:0 1em;
 }
 
 #negative-left-margin {
-	margin-left:-282px;
+	margin-left:-15px;
 }
 
+.project-page-marg {
+	margin-top:4em;
+	margin-bottom:6em;
+}
 
-
-
+.project-page-paragraph {
+	margin-bottom:5em;
+}
 
 
 
@@ -195,17 +187,12 @@ padding:0 1em;
 
 
 
-/* ===== ANNUAL REPORT PAGE =======
-======================== */
 
 
+/* ====== MEDIA QUERY SCREENS =====
+================================ */
 
-
-
-/* ======== MEDIA SCREENS ====
-=========================== */
-
-// Small screens @media only screen {
+/* Small screens*/ @media only screen {
 }
 
 /* Define mobile styles */
@@ -240,7 +227,9 @@ padding:0 1em;
 	float: right;
 }
 }
- // Medium screens @media only screen and (min-width: 40.063em) {
+
+
+/* Medium screens*/ @media only screen and (min-width: 40.063em) {
 }
 
 /* min-width 641px, medium screens */
@@ -254,24 +243,3 @@ padding:0 1em;
 }
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
-// Large screens @media only screen and (min-width: 64.063em) {
-}
-
-/* min-width 1025px, large screens */
-
-@media only screen and (min-width: 64.063em) and (max-width: 90em) {
-}
-/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
-
-// XLarge screens @media only screen and (min-width: 90.063em) {
-}
-
-/* min-width 1441px, xlarge screens */
-
-@media only screen and (min-width: 90.063em) and (max-width: 120em) {
-}
-/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
-
-// XXLarge screens @media only screen and (min-width: 120.063em) {
-}
-/* min-width 1921px, xxlarge screens */
