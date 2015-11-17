@@ -107,8 +107,8 @@ padding:0 1em;
 #promo-margin {
 	margin-top:12px;
 }
-#about-test-padding{
-	margin-left:15px;
+#about-test-margin{
+	margin-right:10px;
 }
 
 
@@ -165,15 +165,22 @@ padding:0 1em;
 #work .row .row {
 	padding-bottom: 1.875rem;
 }
-#margin-about-pictures {
-	margin-top: 1.5rem;
+
+#left-picture-spacing {
+	margin-right: 1rem;
 }
+
+.margin-about-pictures {
+	margin:1.5rem 0 4rem 0;
+}
+
 #wrapper .text {
 	position: relative;
 	bottom: 0px;
 	left: 50px;
 	visibility: hidden;
 }
+
 #wrapper:hover .text {
 	visibility: visible;
 }
