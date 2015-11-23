@@ -1,25 +1,44 @@
 @charset "UTF-8";
-
 /* CSS Document */
 
 
 /* TABLE OF CONTENTS FOR CUSTOM CSS 
 ===================================
-1.0 FOOTER
-2.0 HOME PAGE
-3.0 ANNUAL REPORT PAGE
-4.0 MEDIA QUERY
-5.0 
-6.0
+1.0 GENERAL CSS
+2.0 FOOTER
+3.0 HOME PAGE
+4.0 ANNUAL REPORT PAGE
+5.0 MEDIA QUERY
+6.0 
 7.0
+8.0
+================================ */
 
 
 
-=================================*/
 
 
-/* ========= FOOTER ======
-======================= */
+/* ====== 1.0 GENERAL CSS ======
+============================= */
+.text{
+	font-family:'Roboto', sans-serif;
+	text-transform:uppercase;
+	font-weight:300;
+	font-size:.7rem;
+	line-height:1rem;
+	margin-top:.3rem;
+}
+
+h2, h3, h4, h5, p {
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+	line-height:2rem;
+}
+
+
+
+/* ===== 2.0 FOOTER ===========
+============================ */
 
 .row {
 	max-width: 1200px;
@@ -41,7 +60,7 @@
 	text-align: center;
 	line-height: 2rem;
 	margin: 0 3px 0 0;
-	list-style:none !important;
+	list-style: none !important;
 }
 .footer .copywrite {
 	color: #8f9296;
@@ -79,7 +98,7 @@
 	color: #fff;
 	padding: 3rem 0 2rem;
 	margin: 0;
-	font:0.875rem normal;
+	font: 0.875rem normal;
 }
 .footer .footer-links a::after {
 	content: "•";
@@ -89,50 +108,46 @@
 	content: "";
 	padding: 0 0.4rem 0 0.8rem;
 }
-
 .social a {
-	width:4rem !important;
-	height:4rem !important;
-	margin-right:1.2rem !important;
+	width: 4rem !important;
+	height: 4rem !important;
+	margin-right: 1.2rem !important;
 }
+
+
 
 /* ======= HOME PAGE ========
 ========================== */
-.img-spacing{
-padding:0 1em;	
+
+.img-spacing {
+	padding: 0 1em;
 }
 .negative-margin {
-	margin-top:-43px;
+	margin-top: -43px;
 }
 #promo-margin {
-	margin-top:12px;
+	margin-top: 12px;
 }
-#about-test-margin{
-	margin-right:10px;
+#about-test-margin {
+	margin-right: 10px;
 }
-
 
 
 /*==== ANNUAL REPORT PAGE ====
 ============================ */
 .margin-bottom {
-	margin-bottom:15px;
+	margin-bottom: 15px;
 }
-
 .negative-left-margin {
-	margin-left:-15px;
+	margin-left: -15px;
 }
-
 .project-page-marg {
-	margin-top:1em;
-	margin-bottom:6em;
+	margin-top: 1em;
+	margin-bottom: 6em;
 }
-
 .project-page-paragraph {
-	margin-bottom:5em;
+	margin-bottom: 5em;
 }
-
-
 
 @media only screen and (min-width: 40.063em) {
 .footer {
@@ -165,26 +180,21 @@ padding:0 1em;
 #work .row .row {
 	padding-bottom: 1.875rem;
 }
-
 #left-picture-spacing {
 	margin-right: 1rem;
 }
-
 .margin-about-pictures {
-	margin:1.5rem 0 4rem 0;
+	margin: 1.5rem 0 4rem 0;
 }
-
 #wrapper .text {
 	position: relative;
 	bottom: 0px;
 	left: 50px;
 	visibility: hidden;
 }
-
 #wrapper:hover .text {
 	visibility: visible;
 }
-
 
 /* ===== TOKYO PAGE =======
 ======================== */
@@ -237,7 +247,6 @@ padding:0 1em;
 }
 }
 
-
 /* Medium screens*/ @media only screen and (min-width: 40.063em) {
 }
 
@@ -251,4 +260,3 @@ padding:0 1em;
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 }
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
-
