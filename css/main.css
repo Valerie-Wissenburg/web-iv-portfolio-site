@@ -20,21 +20,37 @@
 
 /* ====== 1.0 GENERAL CSS ======
 ============================= */
-.text{
-	font-family:'Roboto', sans-serif;
-	text-transform:uppercase;
-	font-weight:300;
-	font-size:.7rem;
-	line-height:1rem;
-	margin-top:.3rem;
+.text {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: .7rem;
+	line-height: 1rem;
+	margin-top: .3rem;
+}
+h1, h2, h3, h4, h5, p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	line-height: 2rem;
 }
 
-h2, h3, h4, h5, p {
-	font-family:'Roboto', sans-serif;
-	font-weight:300;
-	line-height:2rem;
-}
 
+/* ========== HEADER =======
+========================= */
+
+.logo {
+	margin-left: 10px;
+	margin-right:0;
+}
+.menu-icon {
+	padding-top: 1.2rem;
+}
+.top-bar.expanded {
+	background: #333333;
+}
+.logo {
+	margin-top: 0;
+}
 
 
 /* ===== 2.0 FOOTER ===========
@@ -44,24 +60,30 @@ h2, h3, h4, h5, p {
 	max-width: 1200px;
 }
 .footer {
-	background-color: #292c2f;
+	background-color: #84CDBB;
 	text-align: center;
 	font-size: 1.2rem;
 	padding: 1rem;
 }
 .footer .social a {
-	display: inline-block !important;
+	display: inline-block;
 	width: 2rem;
 	height: 2rem;
-	background-color: #33383b;
-	border-radius: 2px;
+	border-radius: 50px;
 	font-size: 1.5rem;
 	color: #fff;
 	text-align: center;
 	line-height: 2rem;
 	margin: 0 3px 0 0;
-	list-style: none !important;
+	list-style: none;
+	border:3.5px solid #fff;
 }
+
+#social-media-links ul li {
+	display: inline-block;
+	text-decoration:none;
+}
+
 .footer .copywrite {
 	color: #8f9296;
 	font-size: 0.875rem;
@@ -77,6 +99,7 @@ h2, h3, h4, h5, p {
 	color: #d1d2d2;
 	padding: 1.3rem;
 }
+
 .footer .footer-form label {
 	color: #fff;
 	font-size: 1.2rem;
@@ -114,10 +137,27 @@ h2, h3, h4, h5, p {
 	margin-right: 1.2rem !important;
 }
 
+#button-character {
+	padding:10px 80px;
+	margin-right:20rem;
+	border:10px 80px solid #fff;
+}
 
+#button-character:hover a {
+	background-color:#FFFFFF;
+	padding:10px 80px;
+	margin-right:20rem;
+	font-family: 'Roboto', sans-serif;
+	font-color:#84CDBB;
+}
 
 /* ======= HOME PAGE ========
 ========================== */
+
+.header-alignment {
+	display:block;
+	margin:auto;
+}
 
 .img-spacing {
 	padding: 0 1em;
@@ -131,6 +171,7 @@ h2, h3, h4, h5, p {
 #about-test-margin {
 	margin-right: 10px;
 }
+
 
 
 /*==== ANNUAL REPORT PAGE ====
@@ -219,6 +260,7 @@ h2, h3, h4, h5, p {
 @media only screen and (max-width: 40em) {
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
+/*
 .logo-wrapper {
 	position: relative;
 }
@@ -246,6 +288,20 @@ h2, h3, h4, h5, p {
 	float: right;
 }
 }
+*/
+
+ .top-bar {
+ text-align: center;
+}
+ ul.center-buttons {
+ display: inline-block;
+}
+ .logo {
+ left: 5px;
+ top: -2px;
+ position: absolute;
+}
+
 
 /* Medium screens*/ @media only screen and (min-width: 40.063em) {
 }
