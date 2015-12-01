@@ -8,23 +8,24 @@
 <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
+
 <header>
-  <div class="contain-to-grid sticky">
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="name">
-          <h1><a class="logo show-for-small-only" href="index.html"><img src="http://placehold.it/80x80" alt=" "/></a></h1>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
-      <ul class="right">
-        <li><a href="index.html">Projects</a></li>
-        <li><a href="index.html#about">About</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+  <div id="pattern" class="pattern">
+	<a href="#menu" class="menu-link">Menu</a>
+		<nav id="menu" role="navigation">
+			<ul>
+				<li><a href="index.html"> <img id="logo-placement" src="imgs/final_logo.png" alt="Logo" width="100rem" > </a></li>
+                <li class="divider"></li>
+                <li><a href="#work">Work</a></li>
+                 <li class="divider"></li>
+				<li><a href="#about">About</a></li>
+                 <li class="divider"></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
 </header>
+
 <div class="row">
   <div class="column small-12 project-page-marg"> <img src="http://placehold.it/1200x500" alt=" "> </div>
 </div>
@@ -66,24 +67,24 @@
       </div>
   </div>
 </div>
+
 <footer class="footer">
   <div class="row">
     <div class="small-12 medium-6 medium-push-6 columns">
+      <img class="header-alignment" src="imgs/contact-header.svg" alt="Contact Heading" width="200rem">
       <form id="contact" class="footer-form">
         <div class="row">
           <div class="medium-9 medium-push-3 columns">
-            <label for="Contact" >Contact Me</label>
             <label>
-            <input id="Contact" type="text" name="Name" placeholder="Name" />
+              <input id="Contact" type="text" name="Name" placeholder="Name" />
             </label>
           </div>
-        <div class="row">
-          <div class="medium-9 medium-push-3 columns">
-            <label for="email"></label>
-            <input type="email" id="email" placeholder="Email Address" />
+          <div class="row">
+            <div class="medium-9 medium-push-3 columns">
+              <label for="email"></label>
+              <input type="email" id="email" placeholder="Email Address" />
+            </div>
           </div>
-        </div>
-          
         </div>
         <div class="row">
           <div class="medium-9 medium-push-3 columns">
@@ -92,12 +93,12 @@
             </label>
           </div>
           <div class="row">
-            <div class="medium-9 medium-push-3 columns"> <a href="#" class="small round button">Send</a> </div>
+            <div class="medium-9 medium-push-3 columns"> <a href="#" id="button-character" class="small round button">Send</a> </div>
           </div>
         </div>
       </form>
     </div>
-    <div class="small-12 medium-6 medium-pull-6 columns">
+    <div id="social-media-links" class="small-12 medium-6 medium-pull-6 columns">
       <ul class="inline-list social">
         <li class="fi-social-facebook"><a href="#"></a></li>
         <li class="fi-social-twitter"><a href="#"></a></li>
@@ -109,8 +110,9 @@
 </footer>
 <script src="js/vendor/jquery.js"></script> 
 <script src="js/foundation.min.js"></script> 
+<script src="js/foundation/foundation.topbar.js"></script>
 <script>
-  $(document).foundation();
-</script>
+      $(document).foundation();
+    </script>
 </body>
 </html>
