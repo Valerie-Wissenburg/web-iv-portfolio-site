@@ -11,70 +11,22 @@
 </head>
 <body>
 
-<!---- <header>
 <header>
-  <nav class="top-bar" data-topbar>
-    <div class="logo"> <a href="index.html"><img src="imgs/final_logo.png" alt="logo" width="100"/></a> </div>
-    <section class="top-bar-section">
-      <ul class="center-buttons">
-        <li class="divider"></li>
-        <li><a href="#home-screen">Projects</a></li>
-        <li class="divider"></li>
-        <li><a href="#about">About</a></li>
-        <li class="divider"></li>
-        <li><a href="#contact">Contact</a></li>
-        <li class="divider"></li>
-      </ul>
-    </section>
-  </nav>
+  <div id="pattern" class="pattern">
+	<a href="#menu" class="menu-link">Menu</a>
+		<nav id="menu" role="navigation">
+			<ul>
+				<li><a href="index.html"> <img id="logo-placement" src="imgs/final_logo.png" alt="Logo" width="100rem" > </a></li>
+                <li class="divider"></li>
+                <li><a href="#work">Work</a></li>
+                 <li class="divider"></li>
+				<li><a href="#about">About</a></li>
+                 <li class="divider"></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
 </header>
-
-  <div class="contain-to-grid sticky">
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="name">
-          <h1><a class="logo show-for-small-only" href="#home-screen"><img src="http://placehold.it/80x80" alt=" "/></a></h1>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-      </ul>
-      <ul class="right">        
-      </ul>
-    </nav>
-  </div>
-</header> -->
-
-
-<header>
-<nav class="top-bar" data-topbar role="navigation">
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href="#">My Site</a></h1>
-    </li>
-     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-  </ul>
-
-  <section class="top-bar-section">
-    <!-- Right Nav Section -->
-    <ul class="right">
-      <li class="active"><a href="#">Right Button Active</a></li>
-      <li class="has-dropdown">
-        <a href="#">Right Button Dropdown</a>
-        <ul class="dropdown">
-          <li><a href="#">First link in dropdown</a></li>
-          <li class="active"><a href="#">Active link in dropdown</a></li>
-        </ul>
-      </li>
-    </ul>
-
-    <!-- Left Nav Section -->
-    <ul class="left">
-      <li><a href="#">Left Nav Button</a></li>
-    </ul>
-  </section>
-</nav>
-</header>
-
 
 
 <div class="row">
@@ -82,6 +34,7 @@
     <img class="header-alignment" src="imgs/portfolio-header.svg" alt="Portfolio Heading" width="300rem" >
   </div>
 </div>
+
 <section id="work">
   <div class="row">
     <div class="columns large-8 medium-9">
@@ -140,22 +93,17 @@
     </div>
   </div>
 </section>
-<section>
+
+<section id="about">
   <header class="row">
     <div class="column small-12">
       <img class="header-alignment" src="imgs/about-me-header.svg" alt="About Me Heading" width="300rem" >
     </div>
   </header>
   <div class="row">
-    <div class="columns medium-6 img-spacing">
+    <div class="columns medium-6">
       <div class="row">
-        <div class="columns medium-12"> <img src="http://placehold.it/600x250" alt=" "> </div>
-      </div>
-      <div class="row">
-        <div class="columns medium-6 margin-about-pictures"> <img src="http://placehold.it/280x300" alt=" "> </div>
-        <!-- id="left-picture-spacing"  -->
-        <div class="columns medium-6 margin-about-pictures"> <img src="http://placehold.it/280x300" alt=" "> </div>
-        <!-- id="about-img-spacing" --> 
+        <div class="columns medium-12 margin-about-pictures"> <img src="http://placehold.it/500x300" alt=" "> </div>
       </div>
     </div>
     <div class="columns medium-6 right">
