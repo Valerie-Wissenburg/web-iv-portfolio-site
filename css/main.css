@@ -24,18 +24,25 @@
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: .7rem;
+	font-size: .8rem;
 	line-height: 1rem;
-	margin-top: .3rem;
+	margin-top: .4rem;
+	color:#414042;
 }
-h1, h2, h3, h4, h5, p, label, input, textarea{
+h1, h2, h3, h4, h5, p, label, input, textarea {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	line-height: 2rem;
+	color:#414042;
 }
+
 /* ========== TOPBAR-NAVIGATION =======
 ========================= */
 
+nav > ul > li {
+	font-weight:400;
+	font-size:1.1rem;
+}
 
 a.menu-link {
 	float: right;
