@@ -62,7 +62,7 @@ nav[role=navigation] {
 	max-height: 0;
 }
 nav[role=navigation].active {
-	max-height: 15em;
+	max-height: 21em;
 }
 nav[role=navigation] ul {
 	margin: 0;
@@ -236,6 +236,7 @@ img.grayscale:hover {
     -webkit-filter: grayscale(0%);
 }
 
+
 /* ===== TOKYO PAGE =======
 ======================== */
 
@@ -290,6 +291,7 @@ ul.center-buttons {
  nav[role=navigation] li a {
  border: 0;
 }
+
 .footer {
 	padding: 4rem;
 }
@@ -305,7 +307,9 @@ ul.center-buttons {
 	left: -45%;
 	top: 10%;
 }
+
 }
+
 /* min-width 641px, medium screens */
 
 @media only screen and (max-width: 942px) {

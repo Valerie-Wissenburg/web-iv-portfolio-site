@@ -16,9 +16,9 @@
 			<ul class="text">
 				<li><a href="index.html"> <img id="logo-placement" src="imgs/final_logo.png" alt="Logo" width="100rem" > </a></li>
                 <li class="divider"></li>
-                <li><a href="#work">Work</a></li>
+                <li><a href="index.html#work">Work</a></li>
                  <li class="divider"></li>
-				<li><a href="#about">About</a></li>
+				<li><a href="index.html#about">About</a></li>
                  <li class="divider"></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
@@ -41,44 +41,48 @@
     <p>Tokyo is a Japanese and Sushi restaurant. That has a vibe to be family friendly, minimal and modern. Their customers are willing to pay for good asian cuisine at a higher price. Tokyo is looking for a logo to represent themselves as a contemporary, higher class Japanese restaurant. Ultimately, Tokyo is looking for a sleek, geometrical feel. I chose to handletter the name because they are active in working with their hands and involved with their customers' good experiences.</p>
   </div>
 </div>
-<div class="row project-page-marg">
-  <div class="columns large-4 medium-3 img-spacing"> 
-  	<img src="http://placehold.it/400x800" alt=" ">
-  </div>
+
+ <div class="row project-page-marg">
+    <div class="columns large-4 medium-3 img-spacing"> <img class="photo-border" src="http://placehold.it/400x800" alt=" ">
+    </div>
     <div class="columns large-8 medium-9">
       <div class="row">
-        <div class="columns medium-12 left margin-bottom"> <img src="http://placehold.it/800x220" alt=" "> 
-      </div>
-      <div class="row">
-          <div class="columns medium-12 right">
-            <div class="row">
-              <div id="negative-left-margin" class="columns medium-8 img-spacing"> <img src="http://placehold.it/600x600" alt=" "> </div>
-              <div class="columns medium-4">
-                  <div class="row">
-                    <div class="columns medium-12 margin-bottom"> <img src="http://placehold.it/400x365" alt=" "> </div>
-                  </div>
-                  <div class="row">
-                    <div class="columns medium-12"> <img src="http://placehold.it/400x365" alt=" "> </div>
-                  </div>
-              </div>
+        <div class="columns medium-12 left margin-bottom img-spacing"> <img class="photo-border" src="http://placehold.it/800x226" alt=" ">
+        </div>
+        <div class="row">
+        <div class="columns medium-12 right">
+        <div id="negative-left-margin" class="columns medium-8 img-spacing"> <img class="photo-border" src="http://placehold.it/600x600" alt=" ">
+        </div>
+          <div class="row">
+           <div class="columns medium-4">
+          <div class="row">
+            <div class="columns medium-12 margin-bottom img-spacing"> <img class="photo-border" src="imgs/francesca-bag.jpg" alt="Francesca's Bag">
+            </div>
+          </div>
+          <div class="row">
+            <div id="right-stacking-imgs" class="columns medium-12 img-spacing"> <img class="photo-border" src="http://placehold.it/400x400" alt=" ">
             </div>
           </div>
         </div>
+          </div>
+        </div>
       </div>
+      </div>
+    </div>
   </div>
-</div>
 
-<footer class="footer">
+<footer id="contact" class="footer">
   <div class="row">
     <div id="social-media-links" class="text-center small-centered small-12 medium-7 columns">
       <img src="imgs/contact-header.svg" alt="Contact Heading" width="200px">
-      <ul class="inline-list social text-center">
-        <li class="fi-social-facebook"><a href="#"></a></li>
-        <li class="fi-social-twitter"><a href="#"></a></li>
-        <li class="fi-social-linkedin"><a href="#"></a></li>
-      </ul>
       <p class="text-center footer-paragraph"> Don&rsquo;t be afraid to say hello! If you have any comments, suggestions or questions, don&rsquo;t hesitate. I&rsquo;m always open to talking with people about design! I&rsquo;m always ready to start a new project!</p>
       <p id="email-emphasis" class="text-center footer-paragraph">valerie.lynnwissenburg@gmail.com</p>
+      <ul class="inline-list social text-center">
+        <li><a href="#"><img src="imgs/linkedin-icon.png" alt="LinkedIn Icon" width="40" height="40"></a></li>
+        <li><a href="#"><img src="imgs/behance-icon.png" alt="Behance Icon" width="40" height="40"></a></li>
+        <li><a href="#"><img src="imgs/instagram-icon.png" alt="Instagram Icon" width="40" height="40"></a></li>
+        <li><a href="#"><img src="imgs/dribbble-icon.png" alt="Dribbble Icon" width="40" height="40"></a></li>
+      </ul>
       <p class="text-center copywrite"><small> Copyright © 2015 | Valerie Wissenburg</small></p>
     </div>
   </div>
@@ -88,6 +92,16 @@
 <script src="js/foundation/foundation.topbar.js"></script>
 <script>
       $(document).foundation();
+	  $(document).ready(function() {
+  $('body').addClass('js');
+  var $menu = $('#menu'),
+    $menulink = $('.menu-link');
+  
+$menulink.click(function() {
+  $menulink.toggleClass('active');
+  $menu.toggleClass('active');
+  return false;
+});});
     </script>
 </body>
 </html>

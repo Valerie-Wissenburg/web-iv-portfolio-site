@@ -16,9 +16,9 @@
 			<ul class="text">
 				<li><a href="index.html"> <img id="logo-placement" src="imgs/final_logo.png" alt="Logo" width="100rem" > </a></li>
                 <li class="divider"></li>
-                <li><a href="#work">Work</a></li>
+                <li><a href="index.html#work">Work</a></li>
                  <li class="divider"></li>
-				<li><a href="#about">About</a></li>
+				<li><a href="index.html#about">About</a></li>
                  <li class="divider"></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
@@ -74,7 +74,7 @@
     </div>
   </div>
 
-<footer class="footer">
+<footer id="contact" class="footer">
   <div class="row">
     <div id="social-media-links" class="text-center small-centered small-12 medium-7 columns">
       <img src="imgs/contact-header.svg" alt="Contact Heading" width="200px">
@@ -95,6 +95,16 @@
 <script src="js/foundation/foundation.topbar.js"></script>
 <script>
       $(document).foundation();
+	  $(document).ready(function() {
+  $('body').addClass('js');
+  var $menu = $('#menu'),
+    $menulink = $('.menu-link');
+  
+$menulink.click(function() {
+  $menulink.toggleClass('active');
+  $menu.toggleClass('active');
+  return false;
+});});
     </script>
 </body>
 </html>
