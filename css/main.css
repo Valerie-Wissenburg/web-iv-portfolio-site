@@ -85,6 +85,7 @@ nav[role=navigation] li a {
 .row {
 	max-width: 1200px;
 }
+
 .footer {
 	background-color: #84CDBB;
 	text-align: center;
@@ -95,50 +96,22 @@ nav[role=navigation] li a {
 	display: inline-block;
 	width: 2rem;
 	height: 2rem;
-	border-radius: 50px;
 	font-size: 1.5rem;
-	color: #fff;
 	text-align: center;
 	line-height: 2rem;
 	margin: 0 3px 0 0;
 	list-style: none;
-	border: 3px solid #fff;
 }
 #social-media-links ul li {
 	display: inline-block;
 	text-decoration: none;
 }
 .footer .copywrite {
-	color: #8f9296;
-	font-size: 0.875rem;
+	color: #ffffff;
+	font-size: 1rem;
 	margin: 1rem 0 1rem 0;
 }
-.footer .footer-form textarea .footer .footer-form input {
-	border-radius: 3px;
-	background-color: #1f2022;
-	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-	border: none;
-	resize: none;
-	font: inherit 0.875rem normal;
-	color: #d1d2d2;
-	padding: 1.3rem;
-}
-.footer .footer-form label {
-	color: #fff;
-	font-size: 1.2rem;
-	margin: 0 0 1rem 0;
-	font-weight: bold;
-}
-.footer .footer-form .submit {
-	border-radius: 2px;
-	background-color: #33383b;
-	color: #ffffff;
-	border: 0;
-	padding: 1rem 5rem;
-	font-weight: bold;
-	float: right;
-	margin: 0 1rem 2rem 0;
-}
+
 .footer .footer-links a {
 	list-style: none;
 	color: #fff;
@@ -155,25 +128,24 @@ nav[role=navigation] li a {
 	padding: 0 0.4rem 0 0.8rem;
 }
 .social a {
-	width: 4rem !important;
-	height: 4rem !important;
-	margin-right: 1.2rem !important;
+	width: 3rem !important;
+	height: 3rem !important;
+	margin-right: .5rem !important;
 }
-#button-character {
-	padding: 10px 80px;
-	margin-right: 20rem;
-	border: 10px 80px solid #fff;
-	text-transform:uppercase;
-	font-family: 'Roboto', sans-serif;
-	color:#84CDBB;
+
+.footer-paragraph {
+	color:#FFFFFF;
 }
-#button-character:hover a {
-	background-color: #FFFFFF;
-	padding: 10px 80px;
-	margin-right: 20rem;
-	font-family: 'Roboto', sans-serif;
-	color: #84CDBB;
+
+#email-emphasis {
+	font-weight:400;
 }
+
+#instagram-style {
+	border-radius:50px;
+	border:3.2px solid #FFFFFF;
+}
+
 /* ======= HOME PAGE ========
 ========================== */
 
@@ -195,7 +167,7 @@ nav[role=navigation] li a {
 }
 
 #contact-title-position {
-	margin: 0 auto;
+	margin-left:-25%;
 }
 
 
@@ -215,23 +187,6 @@ nav[role=navigation] li a {
 	margin-bottom: 5em;
 }
 
-@media only screen and (min-width: 40.063em) {
-.footer {
-	padding: 4rem;
-}
-.footer p {
-	text-align: left;
-}
-.footer .social {
-	text-align: left;
-	margin: 0;
-}
-.footer .footer-form .contact {
-	position: absolute;
-	left: -45%;
-	top: 10%;
-}
-}
 .logo {
 	color: #fff;
 	font-size: 1.5rem;
@@ -335,8 +290,22 @@ ul.center-buttons {
  nav[role=navigation] li a {
  border: 0;
 }
+.footer {
+	padding: 4rem;
 }
-
+.footer p {
+	text-align: left;
+}
+.footer .social {
+	text-align: left;
+	margin: 0;
+}
+.footer .footer-form .contact {
+	position: absolute;
+	left: -45%;
+	top: 10%;
+}
+}
 /* min-width 641px, medium screens */
 
 @media only screen and (max-width: 942px) {
