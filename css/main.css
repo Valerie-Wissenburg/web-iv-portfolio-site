@@ -141,10 +141,6 @@ nav[role=navigation] li a {
 	font-weight:400;
 }
 
-#instagram-style {
-	border-radius:50px;
-	border:3.2px solid #FFFFFF;
-}
 
 /* ======= HOME PAGE ========
 ========================== */
@@ -193,6 +189,10 @@ nav[role=navigation] li a {
 }
 .logo i {
 	margin-right: 0.5rem;
+}
+
+#right-stacking-imgs {
+	margin-top:15px;
 }
 
 
