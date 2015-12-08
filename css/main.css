@@ -215,7 +215,7 @@ nav[role=navigation] li a {
 	margin-right: 0;
 }
 .margin-about-pictures {
-	margin: 0 0 10rem 0;
+	margin-bottom:10rem;
 }
 #wrapper .text {
 	position: relative;
@@ -245,8 +245,30 @@ img.grayscale:hover {
 }
 
 
-/* ===== TOKYO PAGE =======
+/* ===== MOIBLE PAGE =======
 ======================== */
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  color: #84cdbb;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 10px 80px 10px 80px;
+  border: solid #84cdbb 2px;
+  text-decoration: none;
+  margin-bottom:6rem;
+}
+
+.btn:hover {
+  background: #22adbc;
+  text-decoration: none;
+  color:#ffffff;
+  border: solid #22adbc 2px;
+}
 
 
 
@@ -292,6 +314,13 @@ p .small-about-me-paragraph {
 	padding-top:1.5rem;
 }
 
+.btn {
+  font-weight:500;
+  font-size: 15px;
+  padding: 10px 50px 10px 50px;
+  margin-bottom:4rem;
+}
+
 }
 
 @media only screen and (min-width: 30em) {
@@ -324,6 +353,7 @@ ul.center-buttons {
  nav[role=navigation] li a {
  border: 0;
 }
+
 
 }
 
