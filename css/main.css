@@ -5,17 +5,12 @@
 /* TABLE OF CONTENTS FOR CUSTOM CSS 
 ===================================
 1.0 GENERAL CSS
-2.0 FOOTER
-3.0 HOME PAGE
-4.0 ANNUAL REPORT PAGE
-5.0 MEDIA QUERY
-6.0 
-7.0
-8.0
+2.0 TOPBAR 
+3.0 FOOTER
+4.0 HOME PAGE
+5.0 PROJECT PAGES
+6.0 MEDIA QUERY
 ================================ */
-
-
-
 
 
 /* ====== 1.0 GENERAL CSS ======
@@ -44,7 +39,7 @@ h3 {
 }
 
 
-/* ========== TOPBAR-NAVIGATION =======
+/* ========== 2.0 TOPBAR-NAVIGATION =======
 ========================= */
 
 nav > ul > li {
@@ -87,7 +82,7 @@ nav[role=navigation] li a {
 	margin-left:30rem;
 } 
 
-/* ===== 2.0 FOOTER ===========
+/* ===== 3.0 FOOTER ===========
 ============================ */
 
 .row {
@@ -150,7 +145,7 @@ nav[role=navigation] li a {
 }
 
 
-/* ======= HOME PAGE ========
+/* ======= 4.0 HOME PAGE ========
 ========================== */
 
 .header-alignment {
@@ -173,40 +168,6 @@ nav[role=navigation] li a {
 #contact-title-position {
 	margin-left:-25%;
 }
-
-
-/*==== ANNUAL REPORT PAGE ====
-============================ */
-.margin-bottom {
-	margin-bottom: 15px;
-}
-.negative-left-margin {
-	margin-left: -15px;
-}
-.project-page-marg {
-	margin-top: 1em;
-	margin-bottom: 6em;
-}
-.project-page-paragraph {
-	margin-bottom: 5em;
-}
-
-.logo {
-	color: #fff;
-	font-size: 1.5rem;
-}
-.logo i {
-	margin-right: 0.5rem;
-}
-
-#right-stacking-imgs {
-	margin-top:15px;
-}
-
-
-/* ===== 1.0 HOME PAGE =======
-=========================== */
-
 
 #work .row .row {
 	padding-bottom: 1.875rem;
@@ -245,8 +206,34 @@ img.grayscale:hover {
 }
 
 
-/* ===== MOIBLE PAGE =======
-======================== */
+
+/*==== 5.0 PROJECT PAGES ====
+============================ */
+.margin-bottom {
+	margin-bottom: 15px;
+}
+.negative-left-margin {
+	margin-left: -15px;
+}
+.project-page-marg {
+	margin-top: 1em;
+	margin-bottom: 6em;
+}
+.project-page-paragraph {
+	margin-bottom: 5em;
+}
+
+.logo {
+	color: #fff;
+	font-size: 1.5rem;
+}
+.logo i {
+	margin-right: 0.5rem;
+}
+
+#right-stacking-imgs {
+	margin-top:15px;
+}
 
 .btn {
   -webkit-border-radius: 28;
@@ -271,22 +258,8 @@ img.grayscale:hover {
 }
 
 
-
-/* ===== PACKAGE DESIGN PAGE =======
-======================== */
-
-
-
-
-
-/* ====== MEDIA QUERY SCREENS =====
+/* ====== 6.0 MEDIA QUERY SCREENS =====
 ================================ */
-
-/* Small screens*/ @media only screen {
-}
-
-/* Define mobile styles */
-
 
 /* Medium screens*/
 @media only screen and (max-width: 48em) {
@@ -354,17 +327,6 @@ ul.center-buttons {
  border: 0;
 }
 
-
 }
 
 
-/* min-width 641px, medium screens */
-
-@media only screen and (max-width: 942px) {
-}
-
-/* Makes the responsive menu fit in the navigation container and change its background to black */
-
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-}
-/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
