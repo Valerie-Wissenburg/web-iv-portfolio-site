@@ -294,9 +294,19 @@ p .small-about-me-paragraph {
   margin-bottom:4rem;
 }
 
+.footer {
+	text-align: center;
+	font-size: .9rem;
+	padding: .5rem;
+}
+
+.footer-paragraph {
+	margin:5px;
+}
+
 #email-emphasis {
-	font-weight:300;
-	font-size:12px;
+	font-weight:400;
+	font-size:15px;
 }
 
 }
